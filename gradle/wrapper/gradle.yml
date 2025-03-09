@@ -42,7 +42,7 @@ jobs:
     - name: Upload JAR file
       uses: actions/upload-artifact@v4
       with:
-        name: BlackOutForMeteor1.21.1
+        name: meteor1.21.1
         path: build/libs/*.jar
 
 
